@@ -1,0 +1,17 @@
+1. First we open the command prompt in vs code then will create the environment named "myenv" with command:
+                python -m venv myenv
+        
+2. Then we activate our environment with the command 
+                myenv\Scripts\activatepython
+
+3. Then we will install dependencies
+                python
+                streamlit
+                dotenv
+4. Then we will install dotenv to use the api key with command
+                pip install python-dotenv
+                
+5. Then we will create a new file with name ".myenv". In this file we will work on API
+
+6. Then we will install openai with command
+                pip install streamlit python-dotenv openai
